@@ -45,6 +45,17 @@ body {
 
 .card-hero-text-header {
     font-size: 48px;
+    margin: 0;
+}
+
+.card-hero-subtext {
+}
+
+button {
+    background-color: #ffde59;
+    border-radius: 6px;
+    border-color: #60c089;
+    padding: 8px;
 }
 
 .card-hero-image {
