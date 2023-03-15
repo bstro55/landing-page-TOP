@@ -18,12 +18,12 @@ body {
     font-weight: 600;
 }
 
-.links {
+.header-links {
     display: flex;
     gap: 32px;
 }
 
-.link {
+.header-link {
     color: #F9FAF8;
     list-style-type: none;
 }
