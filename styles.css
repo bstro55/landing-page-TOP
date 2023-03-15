@@ -5,12 +5,22 @@ body {
 }
 
 .header {
+    padding: 16px;
     background-color: #60c089;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-text {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 600;
+}
+
+.links {
+    display: flex;
+    gap: 32px;
 }
 
 .link {
