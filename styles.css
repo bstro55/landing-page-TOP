@@ -5,10 +5,15 @@ body {
 }
 
 .header {
-    
+    background-color: #60c089;
 }
 
 .header-text {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.link {
+    color: #F9FAF8;
+    list-style-type: none;
 }
