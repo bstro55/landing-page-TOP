@@ -29,3 +29,30 @@ body {
     color: #F9FAF8;
     list-style-type: none;
 }
+
+.hero {
+    background-color: #60c089;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-hero-text {
+    flex-wrap: wrap;
+    max-width: 500px;
+    color: #F9FAF8;
+}
+
+.card-hero-text-header {
+    font-size: 48px;
+}
+
+.card-hero-image {
+    max-width: 500px;
+}
+
+img {
+    max-width: 500px;
+    max-height: 400px;
+}
+
