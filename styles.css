@@ -6,8 +6,13 @@ body {
    flex-direction: column;
 }
 
+.container {
+
+}
+
 .header {
-    padding: 16px;
+    padding-left: 200px;
+    padding-right: 200px;
     background-color: #60c089;
     display: flex;
     justify-content: space-between;
@@ -18,6 +23,11 @@ body {
     font-size: 24px;
     color: black;
     font-weight: 600;
+}
+
+.header-image > img {
+    height: 150px;
+    width: 150px;
 }
 
 .header-links {
@@ -35,6 +45,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .card-hero-text {
@@ -64,8 +76,8 @@ button {
 }
 
 .hero-logo {
-    max-width: 500px;
-    max-height: 400px;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 /* INFO CARD SECTION */
@@ -76,11 +88,12 @@ button {
 }
 
 .info-cards-container {
+    padding-left: 200px;
+    padding-right: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
-    padding: 0;
     gap: 25px;
 }
 
@@ -101,4 +114,26 @@ button {
 .info-card > img {
     width: 300px;
     height: 200px;
+}
+
+/* QUOTE SECTION */
+
+.quote-section {
+    background-color: #ffde59;
+    color: #60c089;
+    margin: auto;
+    padding: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-credit {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
 }
