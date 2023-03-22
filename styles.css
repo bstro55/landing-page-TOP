@@ -63,8 +63,42 @@ button {
     max-width: 500px;
 }
 
-img {
+.hero-logo {
     max-width: 500px;
     max-height: 400px;
 }
 
+/* INFO CARD SECTION */
+
+.info-header {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.info-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 25px;
+}
+
+.info-card {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.info-card > p {
+    margin-top: 0;
+    align-self: flex-start;
+}
+
+.info-card > img {
+    width: 300px;
+    height: 200px;
+}
