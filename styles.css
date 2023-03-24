@@ -6,10 +6,6 @@ body {
    flex-direction: column;
 }
 
-.container {
-
-}
-
 .header {
     padding-left: 200px;
     padding-right: 200px;
@@ -33,6 +29,7 @@ body {
 .header-links {
     display: flex;
     gap: 32px;
+    font-size: 18px;
 }
 
 .header-link {
@@ -68,7 +65,7 @@ button {
     background-color: #ffde59;
     border-radius: 6px;
     border-color: #60c089;
-    padding: 8px;
+    padding: 14px;
 }
 
 .card-hero-image {
@@ -137,3 +134,39 @@ button {
     font-weight: bold;
     font-size: 24px;
 }
+
+/* CTA SECTION */
+
+.CTA-container {
+    background-color: #60c089;
+    margin: 75px 200px;
+    padding: 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cta-text-box > H3 {
+    font-size: 30px;
+    line-height: 10px;
+    margin: 0px;
+}
+
+.cta-text-box > p {
+    line-height: 10px;
+}
+
+.cta-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0px;
+}
+
+
+
+
+
+
