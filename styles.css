@@ -142,30 +142,31 @@ button {
 
 .CTA-container {
     background-color: #60c089;
-    margin: 75px 200px;
-    padding: 50px 100px;
-    border-radius: 10px;
+    margin: 50px 200px;
+    padding: 10px 80px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.cta-text-box button {
+    flex: 1;
 }
 
 .cta-text-box > H3 {
-    font-size: 30px;
-    line-height: 10px;
-    margin: 0px;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
 }
 
 .cta-text-box > p {
-    line-height: 10px;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
 }
 
 .cta-text-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    line-height: 0px;
+    text-align: left;
 }
 
 /* FOOTER */
