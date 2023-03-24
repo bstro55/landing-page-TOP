@@ -79,6 +79,32 @@ button {
 
 /* INFO CARD SECTION */
 
+/* .info-header {
+    text-align: center;
+}
+.information {
+    align-items: center;
+}
+
+.info-card > img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+.info-cards-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.info-card {
+    flex: 1;
+} */
+
+
 .info-header {
     text-align: center;
     margin-bottom: 0;
